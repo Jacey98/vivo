@@ -1,5 +1,116 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  color: black;
+}
+body {
+  font-family: VIVO-FONT-WEB-BOLD, VIVO-FONT-NAV-BOLD, sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+@media (max-width: 752px) {
+  header .nav1 {
+    display: none;
+  }
+  header .nav2 {
+    width: 100%;
+    line-height: 60px;
+  }
+  header .nav2 .middle {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 22px;
+    font-size: 18px;
+  }
+  header .nav2 .middle .left i {
+    color: white;
+    font-size: 20px;
+  }
+  header .nav2 .middle .middle a {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 40px;
+  }
+  header .nav2 .middle ul {
+    display: none;
+  }
+  header .nav2 .middle .menu {
+    display: none;
+  }
+  header .nav2 .middle .right i {
+    color: white;
+  }
+  header .nav2 .middle .right i.fa-search {
+    margin-right: 22px;
+  }
+  .top {
+    position: fixed;
+    width: 54px;
+    height: 36px;
+    line-height: 46px;
+    background-color: rgba(0, 0, 0, 0.25);
+    left: 100%;
+    top: 100%;
+    margin-left: -74px;
+    margin-top: -80px;
+    border-radius: 17px;
+    transition: background-color 0.3s;
+  }
+  .top i {
+    font-size: 28px;
+    color: white;
+    margin-left: 18px;
+  }
+  .top:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+  }
+  main .banner {
+    position: relative;
+    top: -60px;
+    z-index: -1;
+    width: 100%;
+    display: flex;
+  }
+  main .banner .img {
+    width: 100%;
+  }
+  main .banner .img img {
+    width: 100%;
+  }
+  main .banner .t {
+    position: absolute;
+    top: 16.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  main .banner .t * {
+    color: white;
+  }
+  main .banner .t .t1 a {
+    font-size: 9vw;
+  }
+  main .banner .t .t2 {
+    line-height: 8vw;
+    font-size: 4vw;
+  }
+  main .banner .t .b {
+    margin-top: 3.5vw;
+    white-space: nowrap;
+    font-size: 4vw;
+    transition: font-size 0.7s;
+  }
+  main .banner .t .b div {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 2vw;
+    width: 6vw;
+    height: 4vw;
+    border-radius: 17px;
+    outline: 2px white solid;
+  }
 }
 /*# sourceMappingURL=./index.css.map */
