@@ -150,15 +150,15 @@ body{
                     opacity:0;
                 }
                 22%{
-                    top:83vh;
+                    top:82.5vh;
                     opacity:1;
                 }
                 50%{
-                    top:84.5vh;
+                    top:84vh;
                     opacity:0.8;
                 }
                 to{
-                    top:84.5vh;
+                    top:84vh;
                     opacity:0;
                 }
             }
@@ -306,11 +306,7 @@ body{
             background-color: #242933;
             border: 1px #242933 solid;
             .middle{
-                 // !!! 大小不变
-
-
-
-                margin: 4vw;
+                margin: 20px;
                 .first{
                     div.outer{
                         border-bottom: 1px #45474d solid;
@@ -332,73 +328,116 @@ body{
                             overflow: hidden;
                             a{
                                 color: #8a8f99;
-                                font-size: 1vw;
-                                line-height: 7vw;
+                                font-size: 12px;
+                                line-height: 3.5;
                             }
                         }
                     }
                     .n6{
                         .title:active + ul{
-                            height: 44vw;
+                            height: 260px;
                         }
                     }
                     .n9{
                         .title:active + ul{
-                            height: 66vw;
+                            height: 395px;
                         }
                     }
                     .n4{
                         .title:active + ul{
-                            height: 29.3vw;
+                            height: 180px;
                         }
                     }
                     .n7{
                         .title:active + ul{
-                            height: 51.3vw;
+                            height: 310px;
                         }
                     }
                 }
                 .second{
-                    margin-top: 5vw;
+                    margin-top: 40px;
+                    // margin-bottom: 20px;
                     li{
-                        margin-bottom: 4.5vw;
+                        margin-bottom: 26px;
                     }
                     .tab{
-                        margin-top: 1vw;
-                        margin-left: 3.8vw;
+                        margin-top: 14px;
+                        margin-left: 21px;
                     }
                     .number{
-                        font-size: 5vw;
+                        font-size: 24px;
                         color: #415fff;
                     }
                     .mail{
-                        font-size: 2.5vw;
                         color: #8a8f99;
                     }
                     *{
                         color: #c2c5cc;
-                        font-size: 3vw;
+                    }
+                    i{
+                        margin-right: 8px;
                     }
                     div.tab a{
                         display: inline-block;
-                        width: 6.6vw;
-                        height: 5.6vw;
-                        line-height: 6.5vw;
-                        border-radius: 3vw;
+                        width: 33px;
+                        height: 28px;
+                        line-height: 33px;
+                        border-radius: 16px;
                         background-color: #bdbfc2;
+                        margin-right: 12px;
                         i{
+                            margin-left: 7px;
                             color: #242933;
-                            font-size: 3.5vw;
-
+                            font-size: 18px;
                         }
-
                     }
 
                 }
+                .third{
+                    display: inline-block;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    i{
+                        margin-right: 8px;
+                    }
+                    *{
+                        color: #c2c5cc; 
+                    }
+                }
             }
-
         }
-        
+        .copy{
+            width:100%;
+            background-color: #415fff;
+            border: 1px #415fff solid;
+            .middle{
+                margin: 20px;
+                *{
+                    color: #c6cfff;
+                    font-size: 12px;
+                }
+                .left1{
+                    display: inline-block;
+                    margin-bottom: 10px;
+                }
+                .left2{
+                    li{
+                        margin: 0 2px;
+                        line-height: 1.4;
+                    }
+                    li:not(:last-child){
+                        float:left;
+                    }
+                    li:not(:last-child)::after{
+                        content: ' |';
+
+                    }
+                }
+                .right{
+                    display: none;
+                }
+            }
+        }
     }
 }
 
