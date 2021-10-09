@@ -978,6 +978,7 @@ body {
   }
   header .nav1 .middle {
     margin: 0 80px;
+    position: relative;
   }
   header .nav1 .middle * {
     color: #8a8f99;
@@ -1005,9 +1006,80 @@ body {
   header .nav1 .middle a:hover * {
     color: white;
   }
-  header .nav1 .middle .code,
-  header .nav1 .middle .personal {
+  header .nav1 .middle .code {
+    position: absolute;
+    right: 104px;
+    top: 60px;
     display: none;
+  }
+  header .nav1 .middle .code .tra {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 77px;
+    top: -20px;
+    border: transparent 9px solid;
+    border-bottom: white 12px solid;
+  }
+  header .nav1 .middle .code .rec {
+    width: 172px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+  }
+  header .nav1 .middle .code .rec img {
+    width: 140px;
+    margin-top: 15px;
+  }
+  header .nav1 .middle .code .rec span {
+    white-space: nowrap;
+    position: relative;
+    top: -12px;
+  }
+  .right .download:hover header .nav1 .middle .code {
+    display: block;
+  }
+  header .nav1 .middle .personal {
+    position: absolute;
+    right: -64px;
+    top: 60px;
+    display: none;
+  }
+  header .nav1 .middle .personal .tra {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 77px;
+    top: -20px;
+    border: transparent 9px solid;
+    border-bottom: white 12px solid;
+  }
+  header .nav1 .middle .personal .rec {
+    width: 172px;
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+  }
+  header .nav1 .middle .personal .rec li:first-child {
+    border-bottom: 1px solid #8a8f9933;
+  }
+  header .nav1 .middle .personal .rec li {
+    display: block;
+    margin: 0 24px;
+  }
+  header .nav1 .middle .personal .rec * {
+    font-size: 14px;
+    line-height: 3.5;
+  }
+  header .nav1 .middle .personal .rec i {
+    margin-right: 8px;
+  }
+  header .nav1 .middle .personal .rec li:hover a {
+    color: #415fff;
+  }
+  header .nav1 .middle .personal .rec li:hover a * {
+    color: #415fff;
   }
   header .nav2 {
     width: 100%;

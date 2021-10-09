@@ -947,6 +947,7 @@ body{
             background-color: #242933;
             .middle{
                 margin: 0 80px;
+                position: relative;
                 *{
                     color: #8a8f99;
                     font-size: 12px;
@@ -973,10 +974,92 @@ body{
                         color: white;
                     }
                 }
-                .code,.personal{
+                .code{
+                    position: absolute;
+                    right: 104px;
+                    top: 60px;
                     display: none;
-                    
+                    .tra{
+                        width: 0px;
+                        height: 0px;
+                        position: absolute;
+                        left: 77px;
+                        top: -20px;
+                        // background-color: rgb(190, 129, 129);
+                        border: transparent 9px solid;
+                        border-bottom: white 12px solid;
+                    }
+                    .rec{
+                        // display: none;
+                        width: 172px;
+                        height: 200px;
+                        background-color: white;
+                        text-align: center;
+                        border-radius: 8px;
+                        img{
+                            width: 140px;
+                            margin-top: 15px;
+                        }
+                        span{
+                            white-space: nowrap;
+                            position: relative;
+                            top: -12px;
+                        }
+                    }
                 }
+                .right .download:hover & .code{
+                    display: block;
+                }
+                .personal{
+                    position: absolute;
+                    right: -64px;
+                    top: 60px;
+                    display: none;
+                    .tra{
+                        width: 0px;
+                        height: 0px;
+                        position: absolute;
+                        left: 77px;
+                        top: -20px;
+                        // background-color: rgb(190, 129, 129);
+                        border: transparent 9px solid;
+                        border-bottom: white 12px solid;
+                    }
+                    .rec{
+                        // display: none;
+                        width: 172px;
+                        // height: 200px;
+                        background-color: white;
+                        text-align: center;
+                        border-radius: 8px;
+                        li:first-child{
+                            border-bottom: 1px solid #8a8f9933;
+                        }
+                        li{
+                            display: block;
+                            // background-color: yellow;
+                            margin: 0 24px;
+                        }
+                        *{
+                            font-size: 14px;
+                            line-height: 3.5;
+                        }
+                        i{
+                            margin-right: 8px;
+                        }
+                        li:hover a{
+                            color: #415fff;
+                            *{
+                                color: #415fff;
+                            }
+                        }
+                        
+                    }
+                }
+                // ul .per:hover .personal {
+                //     display: block;
+                // }
+
             }
         }
         .nav2{
