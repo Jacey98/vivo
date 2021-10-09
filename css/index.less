@@ -958,7 +958,7 @@ body{
                     float: left;
                     margin-right: 20px;
                 }
-                .right *:not(i.fa-download){
+                .right *:not(i.fa-download,.code *,.personal *){
                     float: right;
                     margin-left: 12px;
                 }
@@ -1007,7 +1007,7 @@ body{
                         }
                     }
                 }
-                .right .download:hover & .code{
+                .right li.download:hover +.code{
                     display: block;
                 }
                 .personal{
@@ -1056,9 +1056,10 @@ body{
                         
                     }
                 }
-                // ul .per:hover .personal {
-                //     display: block;
-                // }
+                .right li.per:hover ~.personal,
+                .personal:hover{
+                    display: block;
+                }
 
             }
         }

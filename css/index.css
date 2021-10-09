@@ -990,7 +990,7 @@ body {
     float: left;
     margin-right: 20px;
   }
-  header .nav1 .middle .right *:not(i.fa-download) {
+  header .nav1 .middle .right *:not(i.fa-download,.code *,.personal *) {
     float: right;
     margin-left: 12px;
   }
@@ -1037,7 +1037,7 @@ body {
     position: relative;
     top: -12px;
   }
-  .right .download:hover header .nav1 .middle .code {
+  header .nav1 .middle .right li.download:hover + .code {
     display: block;
   }
   header .nav1 .middle .personal {
@@ -1080,6 +1080,10 @@ body {
   }
   header .nav1 .middle .personal .rec li:hover a * {
     color: #415fff;
+  }
+  header .nav1 .middle .right li.per:hover ~ .personal,
+  header .nav1 .middle .personal:hover {
+    display: block;
   }
   header .nav2 {
     width: 100%;
