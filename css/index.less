@@ -28,8 +28,8 @@ body{
         }
         .nav2{
             width: 100%;
-            line-height: 60px;
-            .middle{
+            line-height: 58px;
+            div.middle{
                 display: flex;
                 justify-content: space-between;
                 padding: 0 22px;
@@ -454,8 +454,8 @@ body{
         }
         .nav2{
             width: 100%;
-            line-height: 60px;
-            .middle{
+            line-height: 58px;
+            div.middle{
                 display: flex;
                 justify-content: space-between;
                 padding: 0 40px;
@@ -1065,34 +1065,83 @@ body{
         }
         .nav2{
             width: 100%;
-            line-height: 60px;
-            .middle{
+            line-height: 84px;
+            div.middle{
+                height: 84px;
                 display: flex;
                 justify-content: space-between;
-                padding: 0 40px;
+                padding: 0 80px;
                 font-size: 18px;
-                .left i{
-                    color: white;
-                    font-size: 20px;
+                .left {
+                    display: none;
                 }
                 .middle a{
                     color: white;
                     font-weight: bold;
                     font-size: 24px;
-                    margin-left: 40px;
                 }
-                ul{
-                    display: none;
+                ul *{
+                    display: inline-block;
+                    font-size: 14px;
+                    color: black;
+                    margin: 0 10px;
                 }
-                .menu{
-                    display: none;
+                div.menu {
+                    // display: none;
+
+                    height: 490px;
+                    width: 100%;
+                    background-color: white;
+                    position: absolute;
+                    left: 0px;
+                    border-bottom-left-radius: 24px;
+                    border-bottom-right-radius: 24px;
+                    z-index: -1;
+                    .product{
+                        margin: 100px auto auto auto;
+                        // display: inline-block;
+                        display: flex;
+                        width: 550px;
+                        // height: 240px;
+                        // flex-direction: row;
+                        justify-content: space-between;
+                        background-color: blanchedalmond;
+                        a{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            div.image{
+                                // flex: auto;
+                                // width: 173px;
+                                // line-height: 188px;
+                                // padding: 0;
+                                // display: inline-block;
+                                background-color: rgb(98, 124, 124);
+                                
+                                img{
+                                    // flex: none;
+                                    width: 59.5px;
+                                    margin: 24px 56.75px;
+                                }
+                            }
+                        }
+                        span{
+                            text-align: center;
+                        }
+                    }
                 }
                 .right i{
                     color: white;
-                    &.fa-search{
-                        margin-right: 22px;
+                    &.fa-store{
+                        display: none;
                     }
-                }        
+                }
+                span *,ul *{
+                    transition: color 0.4s;
+                }
+                span *:hover,ul *:hover{
+                    color: #416df3;
+                }
             }
         }
     } 
@@ -1121,7 +1170,7 @@ body{
     main{
         .banner{
             position: relative;
-            top: -60px;
+            top: -86px;
             width:100%;
             .img{
                 width:100%;
