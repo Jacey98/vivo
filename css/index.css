@@ -1157,8 +1157,9 @@ body {
     text-align: center;
     border-radius: 24px;
     position: absolute;
-    top: 400px;
-    left: 620px;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: #242933;
   }
   header .nav2 div.middle ul:hover + .menu,
@@ -1794,10 +1795,11 @@ body {
     line-height: 84px;
   }
   header .nav2 div.middle {
+    width: 1440px;
     height: 84px;
     display: flex;
     justify-content: space-between;
-    padding: 0 80px;
+    margin: 0 auto;
     font-size: 18px;
   }
   header .nav2 div.middle .left {
@@ -1861,8 +1863,9 @@ body {
     text-align: center;
     border-radius: 24px;
     position: absolute;
-    top: 400px;
-    left: 620px;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: #242933;
   }
   header .nav2 div.middle ul:hover + .menu,
@@ -1927,25 +1930,25 @@ body {
     width: 100%;
   }
   main .banner .t {
-    position: absolute;
-    top: 50%;
-    margin-left: 80px;
-    transform: translate(0, -50%);
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    top: -490px;
   }
   main .banner .t * {
     color: white;
   }
   main .banner .t .t1 a {
-    font-size: 5vw;
+    font-size: 79.15px;
   }
   main .banner .t .t2 {
-    line-height: 5vw;
-    font-size: 2vw;
+    line-height: 79.15px;
+    font-size: 31.66px;
   }
   main .banner .t .b {
-    margin-top: 3vw;
+    margin-top: 47.49px;
     white-space: nowrap;
-    font-size: 1.5vw;
+    font-size: 23.745px;
     transition: font-size 0.7s;
   }
   main .banner .t .b .b1 *,
@@ -1956,15 +1959,15 @@ body {
     text-align: center;
     display: inline-block;
     vertical-align: bottom;
-    margin-left: 1vw;
-    margin-right: 2vw;
-    width: 2.4vw;
-    line-height: 1.5vw;
+    margin-left: 15.83px;
+    margin-right: 31.66px;
+    width: 37.992px;
+    line-height: 23.745px;
     border-radius: 17px;
     outline: 2px white solid;
   }
   main .banner .t .b div i {
-    font-size: 1.7vw;
+    font-size: 26.911px;
   }
   main .banner .t .b .b1:hover *,
   main .banner .t .b .b2:hover * {
@@ -1995,26 +1998,26 @@ body {
   }
   @keyframes slip {
     from {
-      top: 85%;
+      top: 65%;
       opacity: 0;
     }
     22% {
-      top: 89.5%;
+      top: 67.5%;
       opacity: 1;
     }
     50% {
-      top: 92%;
+      top: 69%;
       opacity: 0.8;
     }
     to {
-      top: 92%;
+      top: 69%;
       opacity: 0;
     }
   }
   main .ad .first,
   main .ad .second {
     position: relative;
-    width: 88%;
+    width: 1378.08px;
     overflow: hidden;
     border-radius: 20px;
     margin: 0 auto;
@@ -2049,18 +2052,18 @@ body {
   }
   main .ad .first .t .t1 a,
   main .ad .second .t .t1 a {
-    font-size: 5vw;
+    font-size: 79.15px;
   }
   main .ad .first .t .t2,
   main .ad .second .t .t2 {
-    line-height: 5vw;
-    font-size: 2vw;
+    line-height: 79.15px;
+    font-size: 31.66px;
   }
   main .ad .first .t .b,
   main .ad .second .t .b {
-    margin-top: 3vw;
+    margin-top: 47.49px;
     white-space: nowrap;
-    font-size: 1.5vw;
+    font-size: 23.745px;
     transition: font-size 0.7s;
   }
   main .ad .first .t .b .b1 *,
@@ -2074,16 +2077,16 @@ body {
     text-align: center;
     display: inline-block;
     vertical-align: bottom;
-    margin-left: 1vw;
-    margin-right: 2vw;
-    width: 2.4vw;
-    line-height: 1.5vw;
+    margin-left: 15.83px;
+    margin-right: 31.66px;
+    width: 37.992px;
+    line-height: 23.745px;
     border-radius: 17px;
     outline: 2px black solid;
   }
   main .ad .first .t .b div i,
   main .ad .second .t .b div i {
-    font-size: 1.7vw;
+    font-size: 26.911px;
   }
   main .ad .first .t .b .b1:hover *,
   main .ad .second .t .b .b1:hover *,
@@ -2098,6 +2101,9 @@ body {
   main .ad .second .t .b .b2:hover div {
     outline: 2px #416df3 solid;
   }
+  main .ad .first {
+    margin-top: -240px;
+  }
   main .ad .second {
     margin-top: 5vw;
   }
@@ -2106,26 +2112,30 @@ body {
   }
   main .more {
     background-color: #f0f2f5;
-    margin-top: 4vw;
-    padding-top: 7vw;
+    margin-top: 63.32px;
+    padding-top: 110.81px;
   }
   main .more > span {
     font-size: 40px;
-    margin-left: 5vw;
+    display: block;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
   }
   main .more .ad {
-    height: 64vw;
-    margin-left: 4.5vw;
-    margin-right: 4.5vw;
+    height: 1013.12px;
     padding-bottom: 1.5vw;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
   }
   main .more .ad1 {
     position: relative;
     width: 93%;
     overflow: hidden;
     border-radius: 20px;
-    margin-top: 5vw;
+    margin-top: 79.15px;
   }
   main .more .ad1 .img {
     width: 100%;
@@ -2153,7 +2163,7 @@ body {
     width: 93%;
     overflow: hidden;
     border-radius: 20px;
-    margin-top: 5vw;
+    margin-top: 79.15px;
   }
   main .more .ad3 .img,
   main .more .ad4 .img,
@@ -2191,23 +2201,23 @@ body {
   main .more .ad5 .t {
     position: absolute;
     bottom: 2%;
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
+    margin-left: 39.575px;
+    margin-right: 39.575px;
     transform: translate(0, -50%);
   }
   main .more .ad3 .t .t1 a,
   main .more .ad4 .t .t1 a,
   main .more .ad2_2 .t .t1 a,
   main .more .ad5 .t .t1 a {
-    font-size: 1.5vw;
-    line-height: 2vw;
+    font-size: 23.745px;
+    line-height: 31.66px;
   }
   main .more .ad3 .t .t2,
   main .more .ad4 .t .t2,
   main .more .ad2_2 .t .t2,
   main .more .ad5 .t .t2 {
-    line-height: 1.5vw;
-    font-size: 1.2vw;
+    line-height: 23.745px;
+    font-size: 18.996px;
   }
   main .more .ad2_2,
   main .more .ad4 {
@@ -2219,11 +2229,11 @@ body {
   }
   main .more .ad2_2 img,
   main .more .ad4 img {
-    margin-bottom: 10vw;
+    margin-bottom: 158.3px;
   }
   main .more .ad2_2,
   main .more .ad5 {
-    margin-top: 2.5vw;
+    margin-top: 39.575px;
   }
   main .more .ad3 *,
   main .more .ad5 * {
@@ -2239,7 +2249,8 @@ body {
     height: 505px;
   }
   footer .info .middle {
-    margin: 76px 80px 0 80px;
+    margin: 76px auto 0 auto;
+    width: 1440px;
   }
   footer .info .middle .first > li {
     float: left;
@@ -2340,7 +2351,8 @@ body {
     border: 1px #415fff solid;
   }
   footer .copy .middle {
-    margin: 0 80px;
+    margin: 0 auto;
+    width: 1440px;
   }
   footer .copy .middle * {
     color: #c6cfff;
