@@ -1,6 +1,6 @@
 # vivo官网首页模仿
 
-vivo官网: https://www.vivo.com.cn/
+纯HTML+CSS的静态页面模仿
+包含完整的响应式布局及动画
 
-基于HTML+CSS
-
+预览地址：https://jacey98.github.io/vivo/
